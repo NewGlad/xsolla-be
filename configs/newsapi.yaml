@@ -1,0 +1,6 @@
+bind_addr: :8080
+log_level: debug
+session_key: helloLesha
+top_news_limit: 10
+store:
+  dsn: postgres://postgres:password@localhost?sslmode=disable
